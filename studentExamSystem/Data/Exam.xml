@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><Exam>
+	<Student>
+		<name>周先鹏</name>
+		<id>333</id>
+		<examid>444</examid>
+		<location>河南</location>
+		<grade>99</grade>
+	</Student>
+	<Student>
+		<name>MT</name>
+		<id>111</id>
+		<examid>222</examid>
+		<location>Shanghai</location>
+		<grade>200</grade>
+	</Student>
+</Exam>
