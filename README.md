@@ -90,7 +90,7 @@ public static Document getDocument(){
   ```
   
   
-  Write method to write your document from RAW to your file.
+  Write method to write your document from RAM to your file.
   ```
   public static void write2Document(Document document){
 		TransformerFactory tf = TransformerFactory.newInstance();
