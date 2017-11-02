@@ -110,3 +110,26 @@ public static Document getDocument(){
 	}
   ```
   
+### Step 4.Write ExamDAOInterface and ExamDao for Data access based on the operations(CRUD) such as
+add(Student student)
+FindStudentBy(ID|NAME|EXAMID|Location|Grade)
+update(Student student)
+delete(Student student)
+
+
+[ExamDAOInterface](https://github.com/chengcheng1006/XMLStudentExamSys/blob/master/studentExamSystem/src/studentExamSystem/dao/ExamDaoInterface.java)
+
+
+[ExamDAO](https://github.com/chengcheng1006/XMLStudentExamSys/blob/master/studentExamSystem/src/studentExamSystem/dao/ExamDao.java)
+
+
+### Step 5. Exception
+
+For some of methods above, there might be a problem if Student not exist in you XML file.
+So we have to write a StudentNotExistException to handle that kind of problems.
+
+[StudentNotExistException](https://github.com/chengcheng1006/XMLStudentExamSys/blob/master/studentExamSystem/src/studentExamSystem/excpetion/StudentNotExistException.java)
+
+### Step 6. Design Your UI for the System.
+You can deploy this system wherever you want.
+for this demomstration I used command line to interact with users.
